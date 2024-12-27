@@ -1,4 +1,4 @@
-package com.aurum.vmmanager.domain.exceptions.domain;
+package com.aurum.vmmanager.domain.exceptions;
 
 public class PasswordNotValidException extends Exception {
     public PasswordNotValidException() {

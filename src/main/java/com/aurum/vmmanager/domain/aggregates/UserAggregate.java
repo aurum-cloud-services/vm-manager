@@ -1,8 +1,8 @@
 package com.aurum.vmmanager.domain.aggregates;
 
-import com.aurum.vmmanager.domain.exceptions.domain.CpfNotValidException;
-import com.aurum.vmmanager.domain.exceptions.domain.NameNotValidException;
-import com.aurum.vmmanager.domain.exceptions.domain.PasswordNotValidException;
+import com.aurum.vmmanager.domain.exceptions.CpfNotValidException;
+import com.aurum.vmmanager.domain.exceptions.NameNotValidException;
+import com.aurum.vmmanager.domain.exceptions.PasswordNotValidException;
 import com.aurum.vmmanager.domain.validators.CpfValidator;
 import com.aurum.vmmanager.domain.validators.DomainValidator;
 import lombok.Getter;
