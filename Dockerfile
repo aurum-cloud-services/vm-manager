@@ -1,8 +1,8 @@
-FROM maven:3.9.9-openjdk-21-slim AS builder
+FROM maven:3.9.9-eclipse-temurin-21 AS builder
 
 WORKDIR /app
 COPY pom.xml .
-RUN mvn dependency:go-offline
+RUN mvn dependency:resolve
 COPY ./ ./
 RUN mvn clean package -DskipTests
 
